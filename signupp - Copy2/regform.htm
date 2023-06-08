@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap - Prebuilt Layout</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    
+
+    <script src="https://cdn.jsdeliver.net/npm/web3@latest/dist/web3.min.js"></script>
+  </head>
+  <body>
+    <section class="form">
+      <!-- FORM START -->
+      <form id="form_form">
+      <div class="container1 bg-light">
+        <div class="card">
+          <div class="form">
+            <div class="left-side">
+              <div
+                class="logo-logo"
+                style="position: absolute; top: 280px; left: 40px"
+              >
+                <img src="images/logo.jpeg" style="width: 160px" />
+              </div>
+            </div>
+            <div class="right-side">
+              <div class="signup-form s_form">
+                <div class="logo text-center">
+                  <img src="images/logo.jpeg" style="width: 70px" />
+                  <h4 class="py-1 text-center">Sign Up</h4>
+                </div>
+
+                <ul class="steps">
+                  <li class="li-active"></li>
+                  <li></li>
+                  <li></li>
+
+                  <!--                          <li></li>-->
+                </ul>
+
+                <div class="main active">
+                  <div class="top-div">
+                    <p class="text-center">Personal Details</p>
+                  </div>
+                  <div class="form-fl-form">
+                    <div class="input-text">
+                      <input
+                        type="text"
+                        placeholder="First name"
+                        id="user_name"
+                        require
+                      />
+                    </div>
+                    <div class="input-text">
+                      <input
+                        type="text"
+                        placeholder="Last name"
+                        id="last_name"
+                        require
+                      />
+                    </div>
+                  </div>
+                  <div class="input-text">
+                    <input
+                      type="text"
+                      placeholder="E-mail"
+                      id="email"
+                      require
+                    />
+                  </div>
+                  <div class="form-fl-form">
+                    <div class="input-text">
+                      <input
+                        type="password"
+                        placeholder="password"
+                        id="password"
+                        require
+                      />
+                    </div>
+                    <div class="input-text">
+                      <input
+                        type="password"
+                        placeholder="Confirm password"
+                        id="confirm_password"
+                        require
+                      />
+                    </div>
+                  </div>
+
+                  <div class="buttons py-1">
+                    <button class="next_button">Next</button>
+                  </div>
+                  <div class="already-have text-center py-1">
+                    <p>
+                      Already have an account?
+                      <a
+                        href=""
+                        class="link text-warning"
+                        style="text-decoration: none"
+                        >Sign in Now</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div class="main">
+                  <div class="top-div text-center">
+                    <p>Company Details</p>
+                  </div>
+                  <div class="input-text">
+                    <input
+                      type="text"
+                      placeholder="Company name"
+                      id="company_name"
+                      require
+                    />
+                  </div>
+                  <div class="form-fl-form">
+                    <div class="input-text">
+                      <input
+                        type="text"
+                        placeholder="Company e-mail"
+                        id="company_email"
+                        require
+                      />
+                    </div>
+                    <div class="input-text">
+                      <input
+                        type="text"
+                        placeholder="Contact number"
+                        id="phone_number"
+                        require
+                      />
+                    </div>
+                  </div>
+                  <div class="form-fl-form">
+                    <div class="input-text">
+                      <input
+                        type="text"
+                        placeholder="Address"
+                        id="adress"
+                        require
+                      />
+                    </div>
+                    <div class="input-text">
+                      <input
+                        type="text"
+                        id="postal_code"
+                        placeholder="Postal/Zipcode"
+                        require
+                      />
+                    </div>
+                  </div>
+                  <div class="form-fl-form">
+                    <div class="input-text">
+                      <input
+                        type="text"
+                        id="cac"
+                        placeholder="CAC Number"
+                        require
+                      />
+                    </div>
+                    <div class="input-text">
+                      <select require id="company_type">
+                        <option>Industry Type</option>
+                        <option>General</option>
+                        <option>OBC</option>
+                        <option>SC</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="buttons py-1">
+                    <button class="previous_button">Previous</button>
+                    <button class="next_button">Next</button>
+                  </div>
+                  <div class="already-have text-center py-1">
+                    <p>
+                      Already have an account?
+                      <a
+                        href=""
+                        class="link text-warning"
+                        style="text-decoration: none"
+                        >Sign in Now</a
+                      >
+                    </p>
+                    <!--							<p><span class="text-warning">---------------------</span> or <span class="text-warning">---------------------</span></p>-->
+                  </div>
+                </div>
+                <div class="main">
+                  <div class="top-div">
+                    <!--                       NOTE: To use this application you need to have a metaverse wallet. Enter your metaverse USDT wallet address and click connect to create your account -->
+                    <p class="text-center">Wallet Details</p>
+                  </div>
+                  <div class="text-text-1 text-center">
+                    <span class="text-justify">
+                      <span class="text-danger">NOTE:</span> To use this
+                      application you need to have a metamask wallet. Enter
+                      your metaverse USDT wallet address and click connect to
+                      create your account</span
+                    >
+                  </div>
+                  <div class="py-2 mt-1 mb-1"></div>
+                  <div class="input-text">
+                    <input
+                      type="text"
+                      id="wallet_adress"
+                      placeholder="USDT Wallet Address (TRC 20)"
+                      require
+                    />
+                  </div>
+
+                  <div class="buttons">
+                    <button class="previous_button" id="connectButton">CONNECT WALLET</button>
+                  </div>
+                  <div class="already-have text-center py-3">
+                    <p>
+                      Already have a metaverse wallet?
+                      <a
+                        href=""
+                        class="link text-warning"
+                        style="text-decoration: none"
+                        >Download here.</a
+                      >
+                    </p>
+                  </div>
+                  <div class="buttons">
+                    <!-- SUBMIT BUTTON -->
+                    <button type="submit" id="submit_btn">
+                      CREATE ACCOUNT
+                    </button>
+                  </div>
+                  <div class="already-have text-center py-3">
+                    <p>
+                      Already have an account?
+                      <a
+                        href=""
+                        class="link text-warning"
+                        style="text-decoration: none"
+                        >Sign in Now</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                </form>
+                <!-- FORM END -->
+
+                <div class="main">
+                  <div class="top-div">
+                    <h2>Welcome Back</h2>
+                    <p>Log in to continue</p>
+                  </div>
+                  <svg
+                    class="checkmark"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 52 52"
+                  >
+                    <circle
+                      class="checkmark__circle"
+                      cx="26"
+                      cy="26"
+                      r="25"
+                      fill="none"
+                    />
+                    <path
+                      class="checkmark__check"
+                      fill="none"
+                      d="M14.1 27.2l7.1 7.2 16.7-16.8"
+                    />
+                  </svg>
+                  <div class="check_box">
+                    <p>
+                      Congratulations Mr./Mrs <span id="shown_name"></span> you
+                      have successfully registered.
+                    </p>
+                  </div>
+                </div>
+                 <div class="toggle-button text-center">
+    <button class="sign-in-up-toggle">Sign in</button>
+  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/style.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
